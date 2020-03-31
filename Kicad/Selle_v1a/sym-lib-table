@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name R-785.0-0.5)(type Legacy)(uri C:/DATA/Documents/Projets/ecuBiker/Kicad/lib/R-785.0-0.5.lib)(options "")(descr ""))
+  (lib (name YAAJ_STM32)(type Legacy)(uri C:/DATA/Documents/Projets/ecuBiker/Kicad/lib/YAAJ_STM32.lib)(options "")(descr ""))
+)
