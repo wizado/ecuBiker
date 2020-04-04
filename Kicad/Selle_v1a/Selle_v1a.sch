@@ -446,7 +446,7 @@ L Connector_Generic:Conn_01x08 K?
 U 1 1 5E84B16D
 P 10200 1300
 F 0 "K?" H 10280 1292 50  0000 L CNN
-F 1 "RFID" H 10280 1201 50  0000 L CNN
+F 1 "RFID-RC522" H 10280 1201 50  0000 L CNN
 F 2 "" H 10200 1300 50  0001 C CNN
 F 3 "~" H 10200 1300 50  0001 C CNN
 	1    10200 1300
@@ -474,4 +474,191 @@ F 3 "~" H 2200 6600 50  0001 C CNN
 	1    2200 6600
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	10000 1000 9800 1000
+Wire Wire Line
+	10000 1100 9800 1100
+Wire Wire Line
+	10000 1200 9800 1200
+Wire Wire Line
+	10000 1300 9800 1300
+$Comp
+L power:VCC #PWR?
+U 1 1 5E8C5F52
+P 9900 900
+F 0 "#PWR?" H 9900 750 50  0001 C CNN
+F 1 "VCC" H 9917 1073 50  0000 C CNN
+F 2 "" H 9900 900 50  0001 C CNN
+F 3 "" H 9900 900 50  0001 C CNN
+	1    9900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E8C663C
+P 9950 1800
+F 0 "#PWR?" H 9950 1550 50  0001 C CNN
+F 1 "GND" H 9955 1627 50  0000 C CNN
+F 2 "" H 9950 1800 50  0001 C CNN
+F 3 "" H 9950 1800 50  0001 C CNN
+	1    9950 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1700 9900 1700
+Wire Wire Line
+	9900 1700 9900 900 
+Wire Wire Line
+	10000 1500 9950 1500
+Wire Wire Line
+	9950 1500 9950 1800
+Wire Wire Line
+	10000 1600 9800 1600
+Text GLabel 9800 1000 0    50   Input ~ 0
+~SS
+Wire Wire Line
+	10000 1400 9800 1400
+Text GLabel 9800 1400 0    50   Output ~ 0
+IRQ
+Text GLabel 9800 1100 0    50   Input ~ 0
+SCK
+Text GLabel 9800 1200 0    50   Input ~ 0
+MOSI
+Text GLabel 9800 1300 0    50   Output ~ 0
+MISO
+Text GLabel 9800 1600 0    50   Input ~ 0
+~RST
+Wire Wire Line
+	1600 1500 1400 1500
+Wire Wire Line
+	1600 1400 1400 1400
+Wire Wire Line
+	1600 1300 1400 1300
+Wire Wire Line
+	1600 1200 1400 1200
+Text GLabel 1400 1200 0    50   Output ~ 0
+~SS
+Text GLabel 1400 1300 0    50   Output ~ 0
+SCK
+Text GLabel 1400 1400 0    50   Input ~ 0
+MISO
+Text GLabel 1400 1500 0    50   Output ~ 0
+MOSI
+$Comp
+L power:+5V #PWR?
+U 1 1 5E8DDE10
+P 9900 2400
+F 0 "#PWR?" H 9900 2250 50  0001 C CNN
+F 1 "+5V" H 9915 2573 50  0000 C CNN
+F 2 "" H 9900 2400 50  0001 C CNN
+F 3 "" H 9900 2400 50  0001 C CNN
+	1    9900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2500 9900 2500
+Wire Wire Line
+	9900 2500 9900 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5E8DFFF4
+P 9900 3300
+F 0 "#PWR?" H 9900 3050 50  0001 C CNN
+F 1 "GND" H 9905 3127 50  0000 C CNN
+F 2 "" H 9900 3300 50  0001 C CNN
+F 3 "" H 9900 3300 50  0001 C CNN
+	1    9900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2700 9800 2700
+Wire Wire Line
+	10000 2800 9800 2800
+Wire Wire Line
+	10000 3200 9800 3200
+Text GLabel 9800 2700 0    50   Input ~ 0
+SCL
+Text GLabel 9800 2800 0    50   BiDi ~ 0
+SDA
+Text GLabel 9800 3200 0    50   Output ~ 0
+INT
+NoConn ~ 10000 2900
+NoConn ~ 10000 3000
+Wire Wire Line
+	10000 2600 9900 2600
+Wire Wire Line
+	9900 2600 9900 3100
+Wire Wire Line
+	10000 3100 9900 3100
+Connection ~ 9900 3100
+Wire Wire Line
+	9900 3100 9900 3300
+Wire Wire Line
+	3150 2700 3350 2700
+Wire Wire Line
+	3150 2600 3350 2600
+Wire Wire Line
+	3150 2500 3350 2500
+Wire Wire Line
+	3150 2400 3350 2400
+Wire Wire Line
+	3150 2300 3350 2300
+Wire Wire Line
+	3150 2200 3350 2200
+Wire Wire Line
+	3150 2100 3350 2100
+Wire Wire Line
+	3150 2000 3350 2000
+Text GLabel 3350 2700 2    50   Input ~ 0
+IN0
+Text GLabel 3350 2600 2    50   Input ~ 0
+IN1
+Text GLabel 3350 2500 2    50   Input ~ 0
+IN2
+Text GLabel 3350 2400 2    50   Input ~ 0
+IN3
+Text GLabel 3350 2300 2    50   Input ~ 0
+IN4
+Text GLabel 3350 2200 2    50   Input ~ 0
+IN5
+Text GLabel 3350 2100 2    50   Input ~ 0
+IN6
+Text GLabel 3350 2000 2    50   Input ~ 0
+IN7
+Wire Wire Line
+	3150 1900 3350 1900
+Wire Wire Line
+	3150 1800 3350 1800
+Wire Wire Line
+	1600 2200 1400 2200
+Wire Wire Line
+	1600 2300 1400 2300
+Wire Wire Line
+	1600 2400 1400 2400
+Wire Wire Line
+	1600 2700 1400 2700
+Wire Wire Line
+	1600 2800 1400 2800
+Wire Wire Line
+	3150 1700 3350 1700
+Wire Wire Line
+	3150 1600 3350 1600
+Text GLabel 3350 1900 2    50   Output ~ 0
+OUT0
+Text GLabel 3350 1800 2    50   Output ~ 0
+OUT1
+Text GLabel 1400 2200 0    50   Output ~ 0
+OUT2
+Text GLabel 1400 2300 0    50   Output ~ 0
+OUT3
+Text GLabel 1400 2400 0    50   Output ~ 0
+OUT4
+Text GLabel 1400 2700 0    50   Output ~ 0
+OUT5
+Text GLabel 1400 2800 0    50   Output ~ 0
+OUT6
+Text GLabel 3350 1700 2    50   Output ~ 0
+OUT7
+Text GLabel 3350 1600 2    50   Output ~ 0
+OUT8
 $EndSCHEMATC
