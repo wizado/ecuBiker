@@ -661,4 +661,16 @@ Text GLabel 3350 1700 2    50   Output ~ 0
 OUT7
 Text GLabel 3350 1600 2    50   Output ~ 0
 OUT8
+Wire Wire Line
+	1600 1600 1400 1600
+Text GLabel 1400 1600 0    50   Input ~ 0
+IRQ
+Wire Wire Line
+	3150 1500 3350 1500
+Text GLabel 3350 1500 2    50   Output ~ 0
+~RST
+Wire Wire Line
+	1600 2100 1400 2100
+Text GLabel 1400 2100 0    50   Input ~ 0
+INT
 $EndSCHEMATC

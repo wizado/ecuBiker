@@ -625,4 +625,48 @@ Text GLabel 3350 2100 2    50   Input ~ 0
 IN6
 Text GLabel 3350 2000 2    50   Input ~ 0
 IN7
+Wire Wire Line
+	3150 1900 3350 1900
+Wire Wire Line
+	3150 1800 3350 1800
+Wire Wire Line
+	1600 2200 1400 2200
+Wire Wire Line
+	1600 2300 1400 2300
+Wire Wire Line
+	1600 2400 1400 2400
+Wire Wire Line
+	1600 2700 1400 2700
+Wire Wire Line
+	1600 2800 1400 2800
+Wire Wire Line
+	3150 1700 3350 1700
+Wire Wire Line
+	3150 1600 3350 1600
+Text GLabel 3350 1900 2    50   Output ~ 0
+OUT0
+Text GLabel 3350 1800 2    50   Output ~ 0
+OUT1
+Text GLabel 1400 2200 0    50   Output ~ 0
+OUT2
+Text GLabel 1400 2300 0    50   Output ~ 0
+OUT3
+Text GLabel 1400 2400 0    50   Output ~ 0
+OUT4
+Text GLabel 1400 2700 0    50   Output ~ 0
+OUT5
+Text GLabel 1400 2800 0    50   Output ~ 0
+OUT6
+Text GLabel 3350 1700 2    50   Output ~ 0
+OUT7
+Text GLabel 3350 1600 2    50   Output ~ 0
+OUT8
+Wire Wire Line
+	1600 1600 1400 1600
+Text GLabel 1400 1600 0    50   Input ~ 0
+IRQ
+Wire Wire Line
+	3150 1500 3350 1500
+Text GLabel 3350 1500 2    50   Output ~ 0
+~RST
 $EndSCHEMATC

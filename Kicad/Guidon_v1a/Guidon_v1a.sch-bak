@@ -242,26 +242,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf" H 2450 4750 50 
 $EndComp
 Wire Wire Line
 	7200 2400 9200 2400
-Connection ~ 9400 4600
-Wire Wire Line
-	9400 4400 9400 4600
-$Comp
-L power:VCC #PWR018
-U 1 1 5E95D1B8
-P 9400 4400
-F 0 "#PWR018" H 9400 4250 50  0001 C CNN
-F 1 "VCC" H 9417 4573 50  0000 C CNN
-F 2 "" H 9400 4400 50  0001 C CNN
-F 3 "" H 9400 4400 50  0001 C CNN
-	1    9400 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 4600 9400 4800
-Wire Wire Line
-	9100 4600 9400 4600
-Wire Wire Line
-	9100 4800 9100 4600
 Text GLabel 7200 2500 0    50   Output ~ 0
 BP7
 Text GLabel 7200 2400 0    50   Output ~ 0
@@ -431,29 +411,10 @@ Wire Wire Line
 	7700 1700 7700 1900
 Wire Wire Line
 	7400 1700 7400 1800
-Text GLabel 8900 5300 0    50   BiDi ~ 0
+Text GLabel 9800 5300 0    50   BiDi ~ 0
 SDA
-Text GLabel 8900 5200 0    50   Input ~ 0
+Text GLabel 9800 5200 0    50   Input ~ 0
 SCL
-Wire Wire Line
-	9400 5200 8900 5200
-Wire Wire Line
-	9100 5300 8900 5300
-Wire Wire Line
-	9100 5300 9100 5100
-Wire Wire Line
-	9400 5200 9400 5100
-$Comp
-L Device:R R11
-U 1 1 5E8F474D
-P 9400 4950
-F 0 "R11" H 9470 4996 50  0000 L CNN
-F 1 "4.7k" H 9470 4905 50  0000 L CNN
-F 2 "" V 9330 4950 50  0001 C CNN
-F 3 "~" H 9400 4950 50  0001 C CNN
-	1    9400 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9900 5100 9900 5400
 Wire Wire Line
@@ -971,29 +932,8 @@ F 3 "" H 3050 -800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3150 1400
-$Comp
-L Device:R R9
-U 1 1 5E8F55B0
-P 9100 4950
-F 0 "R9" H 9170 4996 50  0000 L CNN
-F 1 "4.7k" H 9170 4905 50  0000 L CNN
-F 2 "" V 9030 4950 50  0001 C CNN
-F 3 "~" H 9100 4950 50  0001 C CNN
-	1    9100 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10000 5200 9400 5200
-Connection ~ 9400 5200
+	9800 5200 10000 5200
 Wire Wire Line
-	10000 5300 9100 5300
-Connection ~ 9100 5300
-Wire Notes Line
-	9000 4750 9700 4750
-Wire Notes Line
-	9700 4750 9700 5150
-Wire Notes Line
-	9700 5150 9000 5150
-Wire Notes Line
-	9000 5150 9000 4750
+	9800 5300 10000 5300
 $EndSCHEMATC
