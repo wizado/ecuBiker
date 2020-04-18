@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# R-78B15-2.0
+#
+DEF R-78B15-2.0 PS 0 40 Y Y 1 L N
+F0 "PS" -301 221 50 H V L BNN
+F1 "R-78B15-2.0" -302 -272 50 H V L BNN
+F2 "CONV_R-78B15-2.0" 0 0 50 H I L BNN
+F3 "SIP-3 Recom Power" 0 0 50 H I L BNN
+F4 "Recom Power" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "R-78B15-2.0" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "2A DC/DC-Converter 'INNOLINE' SIP3 reg; V. In: 18-32; V. Out: 15; mA. Out: 2000" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 200 -300 -200 N
+P 2 0 0 10 -300 -200 300 -200 N
+P 2 0 0 10 300 -200 300 200 N
+P 2 0 0 10 300 200 -300 200 N
+X VIN 1 -500 100 200 R 40 40 0 0 I 
+X VOUT 3 500 100 200 L 40 40 0 0 O 
+X GND 2 500 -100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
