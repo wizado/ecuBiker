@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name YAAJ_STM32)(type Legacy)(uri C:/DATA/Documents/Projets/ecuBiker/Kicad/lib/YAAJ_STM32.lib)(options "")(descr ""))
-  (lib (name R-785.0-0.5)(type Legacy)(uri C:/DATA/Documents/Projets/ecuBiker/Kicad/lib/R-785.0-0.5.lib)(options "")(descr ""))
   (lib (name DSPIC30F4012-20I_SO)(type Legacy)(uri C:/DATA/Documents/Projets/ecuBiker/Kicad/lib/DSPIC30F4012-20I_SO.lib)(options "")(descr ""))
+  (lib (name R-78B15-2.0)(type Legacy)(uri C:/DATA/Documents/Projets/ecuBiker/Kicad/lib/R-78B15-2.0.lib)(options "")(descr ""))
+  (lib (name YAAJ_STM32)(type Legacy)(uri C:/DATA/Documents/Projets/ecuBiker/Kicad/lib/YAAJ_STM32.lib)(options "")(descr ""))
 )
