@@ -778,14 +778,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 7400 3350 7200
 Wire Wire Line
-	4700 1600 4900 1600
-Wire Wire Line
-	4700 1500 4900 1500
-Text GLabel 4900 1500 2    50   Input ~ 0
-RES2
-Text GLabel 4900 1600 2    50   Input ~ 0
-RES3
-Wire Wire Line
 	900  2800 1100 2800
 Connection ~ 1100 2800
 $Comp
@@ -1258,4 +1250,6 @@ Wire Wire Line
 	2800 5000 3100 5000
 Wire Wire Line
 	2800 5200 2800 5000
+NoConn ~ 4700 1500
+NoConn ~ 4700 1600
 $EndSCHEMATC
