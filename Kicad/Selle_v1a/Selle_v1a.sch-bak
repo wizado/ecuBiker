@@ -697,4 +697,36 @@ NoConn ~ 3050 2700
 NoConn ~ 3050 2600
 NoConn ~ 3050 2900
 NoConn ~ 3050 1200
+Text GLabel 3250 1800 2    50   Input ~ 0
+IN7
+Text GLabel 3250 1900 2    50   Input ~ 0
+IN6
+Text GLabel 3250 2000 2    50   Input ~ 0
+IN5
+Text GLabel 3250 2100 2    50   Input ~ 0
+IN4
+Text GLabel 3250 2200 2    50   Input ~ 0
+IN3
+Text GLabel 3250 2300 2    50   Input ~ 0
+IN2
+Text GLabel 3250 2400 2    50   Input ~ 0
+IN1
+Text GLabel 3250 2500 2    50   Input ~ 0
+IN0
+Wire Wire Line
+	3050 1800 3250 1800
+Wire Wire Line
+	3050 1900 3250 1900
+Wire Wire Line
+	3050 2000 3250 2000
+Wire Wire Line
+	3050 2100 3250 2100
+Wire Wire Line
+	3050 2200 3250 2200
+Wire Wire Line
+	3050 2300 3250 2300
+Wire Wire Line
+	3050 2400 3250 2400
+Wire Wire Line
+	3050 2500 3250 2500
 $EndSCHEMATC
